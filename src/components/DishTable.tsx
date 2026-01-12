@@ -31,7 +31,7 @@ export default function DishTable({ data }: { data: Dish[] }) {
             <TableCell align="right">{row.country}</TableCell>
             <TableCell align="right">{row.rating}</TableCell>
             <TableCell align="right">{row.iconic}</TableCell>
-            <TableCell align="right">{row.ingredients?.join(', ')}</TableCell>
+            <TableCell align="right">{row.ingredients}</TableCell>
           </TableRow>
         ))
       )
